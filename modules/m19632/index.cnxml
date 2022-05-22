@@ -1,0 +1,28 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Configuración de 7-zip</title>
+  <metadata>
+  <md:content-id>m19632</md:content-id><md:title>Configuración de 7-zip</md:title>
+  <md:abstract>Cómo configurar el programa 7-zip</md:abstract>
+  <md:uuid>f6ade642-8a5a-40b4-9077-7858381adb0d</md:uuid>
+</metadata>
+
+<content>
+    <section id="id17431296">
+      <title>Configuración</title>
+      <para id="id17873896">Iniciado el programa, lo primero que habrá que configurar será el idioma que usará el programa. Si ya aparecen los menús en español, nada hay que modificar. Si no es así, haremos <emphasis effect="bold">Tools – Options</emphasis>. </para>
+      <figure id="id16744209">
+        <media id="id16744209_media" alt="">
+          <image mime-type="image/gif" src="../../media/Imagen10.gif" id="id16744209__onlineimage" height="40" width="108"/>
+        </media>
+      </figure>
+      <para id="id4999451">Aparecerá la ventana de opciones, en la que podréis ver cinco pestañas.</para>
+      <figure id="id16815104">
+        <media id="id16815104_media" alt="">
+          <image mime-type="image/gif" src="../../media/Imagen11.gif" id="id16815104__onlineimage" height="288" width="260"/>
+        </media>
+      </figure>
+      <para id="id16823730">La pestaña que nos interesa ahora y sobre la que debéis pulsar es <emphasis effect="bold">Language</emphasis> en la que podréis seleccionar el idioma. En nuestro caso seleccionaremos <emphasis effect="bold">Spanish (Español)</emphasis>, pulsando luego sobre <emphasis effect="bold">Aceptar</emphasis>.</para>
+      <para id="id11187336">El segundo paso será asociar los formatos de compresión al programa <emphasis effect="bold">7-zip</emphasis>, para que cuando pulsemos dos veces sobre un archivo de extensión <emphasis effect="italics">.zip</emphasis> o cualquier otro formato que le asociemos, Windows lo utilice por defecto. Para realizar esta operación, deberéis de seleccionar de nuevo del Menú, la opción <emphasis effect="bold">Herramientas – Opciones...</emphasis>. La pestaña que nos interesa ahora es la que se nos presenta en primera instancia, la pestaña <emphasis effect="bold">Sistema</emphasis> (System en inglés). En ella se nos muestra todos los formatos de compresión que soporta, y nos da a elegir cuales de ellos queremos que estén asociados a <emphasis effect="bold">7-zip</emphasis>. Recomendamos que los seleccionéis todos. Una vez marcados, pulsad sobre <emphasis effect="bold">Aceptar</emphasis>.</para>
+    </section>
+  </content>
+</document>

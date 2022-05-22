@@ -1,0 +1,19 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Descomprimir archivos o carpetas con 7-Zip</title>
+  <metadata>
+  <md:content-id>m19636</md:content-id><md:title>Descomprimir archivos o carpetas con 7-Zip</md:title>
+  <md:abstract>Cómo descomprimir archivos o carpetas con 7-zip</md:abstract>
+  <md:uuid>7e658f13-5e54-4a39-afea-01591bb5ddd7</md:uuid>
+</metadata>
+
+<content>
+    <section id="id3500066">
+      <title>Descomprimir archivos o carpetas con 7-Zip</title>
+      <para id="id26220433">La extracción de archivos comprimidos con <emphasis effect="bold">7-Zip</emphasis> es realmente sencilla: seleccionamos el archivo que deseamos descomprimir y pulsamos el botón derecho del ratón con lo que aparecerá el <emphasis effect="italics">menú contextual</emphasis> asociado. Para hacer estos ejemplos tenemos que tener creado el archivo <emphasis effect="bold">carpeta.zip</emphasis>.</para>
+      <para id="id3442073">Si sólo deseamos extraer los archivos en el mismo lugar donde se encuentra el archivo comprimido, bastará con elegir la opción <emphasis effect="bold">Extraer aquí</emphasis>.</para>
+      <para id="id3851747"><figure id="id16169797"><media id="id16169797_media" alt=""><image mime-type="image/png" src="../../media/graficos4.png" id="id16169797__onlineimage" height="126" width="243"/></media></figure>Para el ejercicio, selecciona <emphasis effect="bold">carpeta.zip</emphasis> (dentro de <emphasis effect="italics">Mis Documentos</emphasis>) y después elige la opción indicada en el párrafo anterior. Verás que se crea la carpeta <emphasis effect="italics">ClamWin</emphasis> con todo lo que contenía la original.</para>
+      <para id="id15107693">Si deseamos extraer el contenido en un lugar diferente al que se encuentra el archivo comprimido, hay que elegir la opción <emphasis effect="bold">Extraer ficheros...</emphasis>. En este caso, se abrirá una nueva ventana.</para>
+      <para id="id3829757">Por defecto, el directorio escogido para extraer los archivos, es el mismo en el que se encuentra el archivo comprimido seguido de una carpeta con el mismo nombre del archivo (Por ejemplo, si el archivo <emphasis effect="bold">carpeta.zip</emphasis> se encuentra en <emphasis effect="bold">C:\</emphasis> el directorio por defecto donde se extraerán los archivos será <emphasis effect="bold">C:\carpeta\</emphasis>) Como esto no es lo que queremos hacer en esta segunda opción, pulsaremos sobre el botón con tres puntos suspensivos situado al final de esta casilla. Navegamos hasta el lugar deseado para alojar los archivos, en nuestro caso <emphasis effect="italics">tu carpeta de trabajo</emphasis>. Pulsaremos en <emphasis effect="bold">Aceptar</emphasis> para volver a la ventana previa y otra vez sobre el botón <emphasis effect="bold">Aceptar</emphasis> de esta ventana. El archivo se descomprimirá allí donde hemos indicado.</para>
+    </section>
+  </content>
+</document>

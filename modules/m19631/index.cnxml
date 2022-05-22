@@ -1,0 +1,35 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Introducción a la compresión de archivos</title>
+  <metadata>
+  <md:content-id>m19631</md:content-id><md:title>Introducción a la compresión de archivos</md:title>
+  <md:abstract>Introducción a la compresión de archivos usando 7-zip</md:abstract>
+  <md:uuid>6e755212-cda0-4db9-9d6b-88b776fb57e7</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="http://es.wikipedia.org/wiki/Bit_rate" strength="3">Bit rate</link>
+      <link url="http://es.wikipedia.org/wiki/Compresi%C3%B3n_de_datos" strength="3">Tipos de compresión</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <section id="id42007803">
+      <title>Introducción</title>
+      <para id="id40209196">Con el siguiente manual se pretende mostrar el funcionamiento del programa <emphasis effect="bold">7-Zip</emphasis>. Una sencilla herramienta para MS-Windows que permite comprimir/descomprimir archivos. Las ventajas de utilizar <emphasis effect="bold">7-Zip</emphasis> son las siguientes: se trata de un programa libre (software libre), soporta varios formatos de compresión y además está traducido al español.</para>
+      <section id="id42003543">
+        <title>¿Qué es compresión y descompresión?</title>
+        <para id="id39649629">Un automóvil ocupa cierto espacio físico, pero este espacio no es totalmente materia. Hay partes del automóvil que son aire (como el espacio donde nos sentamos cuando entramos, el maletero o el depósito de la gasolina). Si, de alguna forma, pudiéramos quitarle esos espacios vacíos, un automóvil ocuparía mucho menos volumen (claro está, que no podríamos utilizarlo). En el software, existen muchas maneras de quitar el espacio vacío que hay dentro de los archivos, y también existen formas de volver a colocárselos, de modo que queden como antes. A esto se le llama <emphasis effect="italics">compresión y descompresión</emphasis>. Al igual que en el ejemplo del coche, cuando los archivos están comprimidos no se pueden utilizar con facilidad (aunque los últimos sistemas operativos pueden manejarlos con cierta soltura). Lo indicado es descomprimirlos para utilizarlos. La ventaja de la compresión es que hace mas fácil el transporte de los mismos.</para>
+        <para id="id40207471">Existen muchos formatos de compresión: ARJ, CAB, ZIP, GZIP, RAR, ACE, etc. Destaca sobre todos ellos el tipo ZIP que sin ser el mejor comprimiendo resulta el más popular, y en consecuencia, el más práctico para el trabajo diario.</para>
+      </section>
+      <section id="id41640736">
+        <title>Diferencias entre compresión con y sin pérdida</title>
+        <para id="id40390384">El objetivo de la codificación es siempre reducir el tamaño de la información, intentando que esta reducción de tamaño no afecte al contenido. No obstante, la reducción de datos puede afectar o no a la calidad de la información:</para>
+        <para id="id39678742"><emphasis effect="bold">Compresión sin pérdida</emphasis>: los datos antes y después de comprimirlos son exactos en la compresión sin pérdida. En el caso de la compresión sin pérdida una mayor compresión solo implica más tiempo de proceso. El <emphasis effect="italics">bit rate</emphasis> siempre es variable en la compresión sin pérdida. Se utiliza principalmente en la compresión de texto.</para>
+        <para id="id40205241">Una algoritmo de <emphasis effect="bold">compresión con pérdida</emphasis> puede eliminar datos para reducir aún más el tamaño, con lo que se suele reducir la calidad. En la compresión con pérdida el <emphasis effect="italics">bit rate</emphasis> puede ser constante o variable. Hay que tener en cuenta que una vez realizada la compresión, no se puede obtener la señal original, aunque sí una aproximación cuya semejanza con la original dependerá del tipo de compresión. Se utiliza principalmente en la compresión de imágenes (por ejemplo el formato JPEG), vídeos (flash, MPEG-4) y sonidos (MP3, WMA).</para>
+      </section>
+    </section>
+  </content>
+</document>

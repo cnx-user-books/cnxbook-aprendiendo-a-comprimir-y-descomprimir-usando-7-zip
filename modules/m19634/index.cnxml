@@ -1,0 +1,44 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Comprimiendo archivos y carpetas</title>
+  <metadata>
+  <md:content-id>m19634</md:content-id><md:title>Comprimiendo archivos y carpetas</md:title>
+  <md:abstract>Cómo comprimir archivos y carpetas usando 7-zip</md:abstract>
+  <md:uuid>0ed4bb59-e231-49f1-8ad1-49d75ddb195d</md:uuid>
+</metadata>
+
+<content>
+    <section id="id13502130">
+      <title>Comprimir con 7-Zip</title>
+      <section id="id13187348"><title>Comprimiendo archivos</title><para id="id13075793">Vamos a ver mediante un ejemplo la manera de comprimir uno o varios archivos, utilizando el <emphasis effect="italics">explorador de Windows</emphasis>. Nuestro objetivo es comprimir en un archivos los ficheros <emphasis effect="bold">A pescar.bmp</emphasis>, <emphasis effect="bold">Azteca.bmp</emphasis>,<emphasis effect="bold"> Plumas.bmp</emphasis>, <emphasis effect="bold">Roca verde.bmp</emphasis> y <emphasis effect="bold">Santa Fe.bmp</emphasis> que están en <emphasis effect="bold">C:\Windows</emphasis>.</para>
+        <para id="id12799689">Abrimos el <emphasis effect="italics">explorador de Windows</emphasis> y navegamos hasta <emphasis effect="bold">C:\Windows</emphasis>. Seleccionamos todos los archivos, dejando pulsada la tecla <emphasis effect="bold">Control</emphasis> mientras los marcamos (deben aparecer ambos en azul, que es lo que nos indica que están seleccionados). Hecho esto, pulsamos el botón derecho del ratón (el <emphasis effect="italics">menú contextual</emphasis>). Nos movemos por él hasta la opción <emphasis effect="italics">Añadir al archivo...</emphasis></para>
+        
+        <para id="id11557805">Se abrirá una nueva ventana. Le ponemos un nombre al archivo comprimido que vamos a crear, en nuestro ejemplo es <emphasis effect="bold">compress.zip</emphasis>. Si deseamos crear el archivo comprimido en un lugar diferente de <emphasis effect="italics">C:\Windows</emphasis> (por defecto donde estén los ficheros seleccionados se creará el archivo comprimido) pulsaremos sobre el botón con puntos suspensivos que hay al final de esta casilla. En la nueva ventana, navegaremos hasta el lugar deseado para el archivo comprimido, en nuestro caso <emphasis effect="italics">Mis Documentos</emphasis>.</para>
+        <figure id="id7997867">
+          <media id="id7997867_media" alt="">
+            <image mime-type="image/png" src="../../media/graficos3.png" id="id7997867__onlineimage" height="270" width="270"/>
+          </media>
+        </figure>
+        <para id="id12836594">Una vez hecho todo esto, pulsamos sobre <emphasis effect="bold">Aceptar</emphasis> y se generará el archivo comprimido.</para>
+        <para id="id13079049">Según el tamaño de lo elegido para comprimir, tardará más o menos, apareciendo una ventana de progreso de dicho estado.</para>
+        <para id="id9809558"><figure id="id9809562"><media id="id9809562_media" alt=""><image mime-type="image/png" src="../../media/graficos20.png" id="id9809562__onlineimage" height="103" width="278"/></media></figure>También podemos elegir el formato de compresión que deseemos entre los que soporta <emphasis effect="bold">7-Zip</emphasis> (7z, Tar y Zip) y el tipo de compresión, que por lo general podremos como <emphasis effect="bold">normal</emphasis>. En nuestro caso, el archivo tiene extensión <emphasis effect="italics">.zip</emphasis> por lo que hemos seleccionado en la casilla <emphasis effect="bold">Formato de archivo</emphasis> la opción <emphasis effect="bold">Zip</emphasis>.</para>
+<figure id="id7104692"><media id="id7104692_media" alt=""><image mime-type="image/png" src="../../media/graficos19.png" id="id7104692__onlineimage" height="78" width="266"/></media></figure>
+        <para id="id13440290">Comprime los mismos archivos utilizando los diferentes formatos de compresión que permite el programa (7z, Tar y Zip).</para>
+        <para id="id13078762">Navega hasta la carpeta <emphasis effect="italics">Mis Documentos</emphasis> y comprueba que tienes tres archivos, cada uno con extensión y tamaño diferente. ¿Cuál es el tipo de compresión con el que se obtiene mejor calidad (menor tamaño)?</para>
+        <para id="id7993041"><figure id="id6108835"><media id="id6108835_media" alt=""><image mime-type="image/png" src="../../media/graficos5.png" id="id6108835__onlineimage" height="99" width="585"/></media></figure>Comprimiendo carpetas</para>
+        <para id="id11698170">Ahora vamos a comprimir una carpeta. En el caso de querer hacerlo con varias, usaríamos la tecla <emphasis effect="bold">Control</emphasis> como en el caso anterior.</para>
+        <para id="id13076764">Navega con el <emphasis effect="italics">explorador de Windows</emphasis> hasta <emphasis effect="italics">C:\Archivos de Programa</emphasis>. Dentro de este directorio vamos a seleccionar la carpeta <emphasis effect="italics">ClamWin</emphasis>, que aproximadamente tiene 18 MB de tamaño.</para>
+        <para id="id12521005">Teniendo seleccionada esta carpeta, en su menú contextual volvemos a escoger la opción de <emphasis effect="italics">Añadir al archivo...</emphasis></para>
+        <figure id="id9812915">
+          <media id="id9812915_media" alt="">
+            <image mime-type="image/png" src="../../media/graficos7.png" id="id9812915__onlineimage" height="147" width="152"/>
+          </media>
+        </figure>
+        <para id="id13150323">En la ventana que aparecerá, elegiremos primero <emphasis effect="italics">zip</emphasis> como formato del archivo. El nombre del archivo será <emphasis effect="bold">carpeta.zip</emphasis> y lo guardaremos en <emphasis effect="italics">Mis Documentos</emphasis>.</para>
+        <para id="id9826991"><figure id="id7994572"><media id="id7994572_media" alt=""><image mime-type="image/png" src="../../media/graficos8.png" id="id7994572__onlineimage" height="306" width="306"/></media></figure>Tardará un poco en generarse el archivo puesto que 18 MB ya es un tamaño considerable.</para>
+        <para id="id9804543"><figure id="id9804545"><media id="id9804545_media" alt=""><image mime-type="image/png" src="../../media/graficos13.png" id="id9804545__onlineimage" height="103" width="278"/></media></figure>Cuando termine el proceso, ve a la carpeta <emphasis effect="italics">Mis Documentos</emphasis> y podrás comprobar que la carpeta <emphasis effect="italics">ClamWin</emphasis> de 18 Mb se ha quedado reducida a un archivo de tan sólo 6 MB.</para>
+        <para id="id12980936">Haz lo mismo utilizando los otros dos formatos de compresión que permite el programa, <emphasis effect="italics">Tar</emphasis> y <emphasis effect="italics">7z</emphasis>.</para>
+        <para id="id13187871">Navega hasta la carpeta <emphasis effect="italics">Mis Documentos</emphasis> y comprueba que tienes tres archivos, cada uno con extensión y tamaño diferente. ¿Cuál es el tipo de compresión con el que se obtiene mejor calidad (menor tamaño)?</para>
+      </section>
+    </section>
+  </content>
+</document>

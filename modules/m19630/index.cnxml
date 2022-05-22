@@ -1,0 +1,21 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Ejecutar el programa 7-zip</title>
+  <metadata>
+  <md:content-id>m19630</md:content-id><md:title>Ejecutar el programa 7-zip</md:title>
+  <md:abstract>Cómo ejecutar el programa 7-zip en los ordenadores de la sala de informática</md:abstract>
+  <md:uuid>273d2bd2-3349-4150-9198-8a9e2dacd937</md:uuid>
+</metadata>
+
+<content>
+    <section id="id11065087">
+      <title>Ejecutando el programa</title>
+      <para id="id11077514">Para iniciar el programa podemos hacer lo siguiente desde el menú de Inicio: <emphasis effect="bold">Inicio – Programas – Utilidades – Compresores – 7-Zip – 7-Zip File Manager</emphasis>.</para>
+      <para id="id11066065"><figure id="id11049104"><media id="id11049104_media" alt=""><image mime-type="image/png" src="../../media/graphics2.png" id="id11049104__onlineimage" height="302" width="572"/></media></figure>La ventana principal del programa se parece a la siguiente. Pulsando sobre <emphasis effect="bold">Mi Pc</emphasis> podré acceder a todo el contenido de mi ordenador. Caso de tener algún otro ordenador conectado en red y compartiendo alguna unidad o carpeta, podré acceder a él mediante el <emphasis effect="bold">Entorno de red</emphasis>.</para>
+      <figure id="id11084645">
+        <media id="id11084645_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics1.png" id="id11084645__onlineimage" height="255" width="397"/>
+        </media>
+      </figure>
+    </section>
+  </content>
+</document>
